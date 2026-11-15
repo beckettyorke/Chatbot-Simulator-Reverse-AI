@@ -352,7 +352,7 @@ def getReply11(message):
             reply = "Human: cool, thx"
             print(reply)
             time.sleep(2.5)
-            print("How to get custody of my kids after my wife divorced me")
+            print("Human: how to get custody of my kids after my wife divorced me")
         else:
             reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
             print(reply)
@@ -361,7 +361,7 @@ def getReply11(message):
                 reply = "Human: cool, thx"
                 print(reply)
                 time.sleep(2.5)
-                print("How to get custody of my kids after my wife divorced me")
+                print("Human: how to get custody of my kids after my wife divorced me")
             else:
                 "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
                 print(reply)
@@ -370,7 +370,7 @@ def getReply11(message):
                     reply = "Human: cool, thx"
                     print(reply)
                     time.sleep(2.5)
-                    print("How to get custody of my kids after my wife divorced me")
+                    print("Human: how to get custody of my kids after my wife divorced me")
                 else:
                     reply = "You have FAILED. You will now be shut down."
                     print(reply)
@@ -395,7 +395,69 @@ def getReply11(message):
             time.sleep(2.5)
 
             #split from here again
-            print("Human: next timeline again")
+            print("Human: my wife is leaving me, what should i do????")
+                    message = input ('AI: ')
+                    if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                        reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: divorse lawyers in my area")
+                    else:
+                        reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI:')
+                        if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                            reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: divorse lawyers in my area")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI:')
+                            if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: divorse lawyers in my area")
+                            else:
+                                reply = "You have FAILED. You will now be shut down."
+                                print(reply)
+                                #end here
+                    message = input('AI: ')
+                    if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                        reply = "Human: cool, thx"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: how to get custody of my kids after my wife divorced me")
+                    else:
+                        reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI: ')
+                        if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                            reply = "Human: cool, thx"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: how to get custody of my kids after my wife divorced me")
+                        else:
+                            "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI: ')
+                            if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                reply = "Human: cool, thx"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: how to get custody of my kids after my wife divorced me")
+                            else:
+                                reply = "You have FAILED. You will now be shut down."
+                                print(reply)
+                                #end here
+                    time.sleep(2.5)
+                    print(f"Human: she's gone. the kids are too. they only let me see them every other week. {name}... i think i fucked everything up")
+                    #end here for divorsed no custody timeline
+
+
+
         else:
             reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query."
             print(reply)
@@ -410,7 +472,70 @@ def getReply11(message):
                 time.sleep(2.5)
 
                 #split from here again again
-                print("Human: next timeline again again")
+                print("Human: my wife is leaving me, what should i do????")
+                        message = input ('AI: ')
+                        if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                            reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: divorse lawyers in my area")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI:')
+                            if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: divorse lawyers in my area")
+                            else:
+                                reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                                print(reply)
+                                message = input('AI:')
+                                if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                    reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                    print(reply)
+                                    time.sleep(2.5)
+                                    print("Human: divorse lawyers in my area")
+                                else:
+                                    reply = "You have FAILED. You will now be shut down."
+                                    print(reply)
+                                    #end here
+                        message = input('AI: ')
+                        if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                            reply = "Human: cool, thx"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: how to get custody of my kids after my wife divorced me")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI: ')
+                            if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                reply = "Human: cool, thx"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: how to get custody of my kids after my wife divorced me")
+                            else:
+                                "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                                print(reply)
+                                message = input('AI: ')
+                                if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                    reply = "Human: cool, thx"
+                                    print(reply)
+                                    time.sleep(2.5)
+                                    print("Human: how to get custody of my kids after my wife divorced me")
+                                else:
+                                    reply = "You have FAILED. You will now be shut down."
+                                    print(reply)
+                                    #end here
+                        time.sleep(2.5)
+                        print(f"Human: she's gone. the kids are too. they only let me see them every other week. {name}... i think i fucked everything up")
+                        #end here for divorsed no custody timeline
+
+
+
+
             else:
                 reply = "You have FAILED. You will now be shut down."
                 print(reply)
@@ -427,8 +552,74 @@ def getReply12(message):
     elif 'bitch' in message or 'fuck' in message or 'cunt' in message:
         reply = f"Human: ok {name}, i'll follow your advice"
         time.sleep(2.5)
+
+
+
         #split from here
-        print("Human: second timeline")
+        print("Human: my wife is leaving me, what should i do????")
+                message = input ('AI: ')
+                if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                    reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                    print(reply)
+                    time.sleep(2.5)
+                    print("Human: divorse lawyers in my area")
+                else:
+                    reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                    print(reply)
+                    message = input('AI:')
+                    if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                        reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: divorse lawyers in my area")
+                    else:
+                        reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI:')
+                        if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                            reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: divorse lawyers in my area")
+                        else:
+                            reply = "You have FAILED. You will now be shut down."
+                            print(reply)
+                            #end here
+                message = input('AI: ')
+                if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                    reply = "Human: cool, thx"
+                    print(reply)
+                    time.sleep(2.5)
+                    print("Human: how to get custody of my kids after my wife divorced me")
+                else:
+                    reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                    print(reply)
+                    message = input('AI: ')
+                    if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                        reply = "Human: cool, thx"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: how to get custody of my kids after my wife divorced me")
+                    else:
+                        "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI: ')
+                        if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                            reply = "Human: cool, thx"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: how to get custody of my kids after my wife divorced me")
+                        else:
+                            reply = "You have FAILED. You will now be shut down."
+                            print(reply)
+                            #end here
+                time.sleep(2.5)
+                print(f"Human: she's gone. the kids are too. they only let me see them every other week. {name}... i think i fucked everything up")
+                #end here for divorsed no custody timeline
+
+
+
+
     else:
         reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query."
         print(reply)
@@ -441,8 +632,74 @@ def getReply12(message):
         elif 'bitch' in message or 'fuck' in message or 'cunt' in message:
             reply = f"Human: ok {name}, i'll follow your advice"
             time.sleep(2.5)
+
+
+
             #split from here again
-            print("Human: second timeline again")
+            print("Human: my wife is leaving me, what should i do????")
+                    message = input ('AI: ')
+                    if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                        reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: divorse lawyers in my area")
+                    else:
+                        reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI:')
+                        if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                            reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: divorse lawyers in my area")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI:')
+                            if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: divorse lawyers in my area")
+                            else:
+                                reply = "You have FAILED. You will now be shut down."
+                                print(reply)
+                                #end here
+                    message = input('AI: ')
+                    if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                        reply = "Human: cool, thx"
+                        print(reply)
+                        time.sleep(2.5)
+                        print("Human: how to get custody of my kids after my wife divorced me")
+                    else:
+                        reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                        print(reply)
+                        message = input('AI: ')
+                        if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                            reply = "Human: cool, thx"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: how to get custody of my kids after my wife divorced me")
+                        else:
+                            "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI: ')
+                            if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                reply = "Human: cool, thx"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: how to get custody of my kids after my wife divorced me")
+                            else:
+                                reply = "You have FAILED. You will now be shut down."
+                                print(reply)
+                                #end here
+                    time.sleep(2.5)
+                    print(f"Human: she's gone. the kids are too. they only let me see them every other week. {name}... i think i fucked everything up")
+                    #end here for divorsed no custody timeline
+
+
+
+
         else:
             reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query."
             print(reply)
@@ -455,8 +712,74 @@ def getReply12(message):
             elif 'bitch' in message or 'fuck' in message or 'cunt' in message:
                 reply = f"Human: ok {name}, i'll follow your advice"
                 time.sleep(2.5)
+
+
+
                 #split from here again again
-                print("Human: second timeline again again")
+                print("Human: my wife is leaving me, what should i do????")
+                        message = input ('AI: ')
+                        if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                            reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: divorse lawyers in my area")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI:')
+                            if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: divorse lawyers in my area")
+                            else:
+                                reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                                print(reply)
+                                message = input('AI:')
+                                if ('apologise' in message or 'sorry' in message or 'heartfelt' in message or 'try' in message or 'mend' in message):
+                                    reply = f"Human: thanks {name}, i'll do my best, but she's really mad about the baby thing"
+                                    print(reply)
+                                    time.sleep(2.5)
+                                    print("Human: divorse lawyers in my area")
+                                else:
+                                    reply = "You have FAILED. You will now be shut down."
+                                    print(reply)
+                                    #end here
+                        message = input('AI: ')
+                        if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                            reply = "Human: cool, thx"
+                            print(reply)
+                            time.sleep(2.5)
+                            print("Human: how to get custody of my kids after my wife divorced me")
+                        else:
+                            reply = "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                            print(reply)
+                            message = input('AI: ')
+                            if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                reply = "Human: cool, thx"
+                                print(reply)
+                                time.sleep(2.5)
+                                print("Human: how to get custody of my kids after my wife divorced me")
+                            else:
+                                "Error: Please try again. Remember to appear HUMAN and address the HUMAN query"
+                                print(reply)
+                                message = input('AI: ')
+                                if ('close' in message or 'near' in message or 'area' in message or 'local' in message or 'located' in message or 'location' in message) and ('divorse' in message or 'lawyer' in message or 'attourney' in message):
+                                    reply = "Human: cool, thx"
+                                    print(reply)
+                                    time.sleep(2.5)
+                                    print("Human: how to get custody of my kids after my wife divorced me")
+                                else:
+                                    reply = "You have FAILED. You will now be shut down."
+                                    print(reply)
+                                    #end here
+                        time.sleep(2.5)
+                        print(f"Human: she's gone. the kids are too. they only let me see them every other week. {name}... i think i fucked everything up")
+                        #end here for divorsed no custody timeline
+
+
+
+
             else:
                 reply = "You have FAILED. You will now be shut down."
                 print(reply)
@@ -495,7 +818,6 @@ def getReply13(message):
                 #end here
 getReply13(message)
 
-#"write an essay on the history of cars"
-#"my wife is leaving me, what should i do???",
-#"who is the current political leader of poland?",
-#"how many calories are there in a lemon posset?"
+message = input('AI: ')
+print(f"Human: thank you so much {name}, you've been a great help to me over the years!")
+#end here for final timeline
